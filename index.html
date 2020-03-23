@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scorekeeper</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main>
+    <div class="container text-center">
+      <!-- <div class="row mx-auto"> -->
+        <h1>Score:</h1>
+      <h2><span id="p1Display">0</span> to <span id="p2Display">0</span></h2>
+
+      <p>Currently playing to: <span id="fieldScore">5</span>. Change the value below.</p>
+
+      <div class="container w-25 mx-auto">
+        <div class="input-group mb-3">
+          <input type="number" class="form-control" placeholder="Enter a value" aria-label="Enter a value" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">Enter a number</span>
+          </div>
+        </div>
+      </div>
+      
+      <button id="p1" class="btn btn-success">Player One</button>
+      <button id="p2" class="btn btn-success">Player Two</button>
+      <button id="reset" class="btn btn-info">Reset</button>
+      </div>
+      
+    <!-- </div> -->
+  </main>
+  
+  <script type="text/javascript" src="assets/js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
